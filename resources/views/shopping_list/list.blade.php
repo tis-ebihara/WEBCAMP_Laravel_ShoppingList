@@ -34,7 +34,7 @@
             <button>「買うもの」を登録する</button>
         </form>
 
-        <h1>「買うもの」の一覧</h1>
+        <h1>「買うもの」一覧</h1>
         <a href="/completed_shopping_list/list">購入済み「買うもの」一覧</a><br>
 
         <table border="1">
