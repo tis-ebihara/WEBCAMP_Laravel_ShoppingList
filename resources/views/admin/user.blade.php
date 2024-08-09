@@ -7,12 +7,12 @@
         <tr>
             <th>ユーザID
             <th>ユーザ名
-            <th>購入した「買うもの」の
+            <th>購入した「買うもの」の数
 @foreach ($users as $user)
         <tr>
             <td>{{ $user->id }}
             <td>{{ $user->name }}
-            <td>{{ $user->shopping_list_num }}
+            <td>{{ $user->completed_shopping_lists_num }}
 @endforeach
     </table>
 
